@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i> Recipe Finder</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="search-container">
+                    <h1 class="text-center mb-4">Find Recipes by Ingredients</h1>
+                    <div class="input-group mb-3">
+                        <input type="text" id="ingredientInput" class="form-control" placeholder="Enter an ingredient...">
+                        <button class="btn btn-primary" type="button" id="addIngredient">
+                            <i class="fas fa-plus"></i> Add
+                        </button>
+                    </div>
+                    <div id="ingredientTags" class="mb-3"></div>
+                    <button class="btn btn-success w-100" id="searchButton">
+                        <i class="fas fa-search"></i> Find Recipes
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-8 mx-auto">
+                <div id="recipeResults"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recipe Modal -->
+    <div class="modal fade" id="recipeModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <div class="rating-container">
+                        <div class="stars"></div>
+                        <textarea class="form-control mt-2" placeholder="Write your review..."></textarea>
+                        <button class="btn btn-primary mt-2 submit-rating">Submit Rating</button>
+                    </div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
