@@ -1,0 +1,195 @@
+{
+    "Chocolate Chip Cookies": {
+        "ingredients": ["flour", "butter", "sugar", "brown sugar", "eggs", "vanilla extract", "chocolate chips", "baking soda", "salt"],
+        "procedure": [
+            "Preheat oven to 375°F (190°C)",
+            "Cream together butter, sugar, and brown sugar",
+            "Beat in eggs and vanilla extract",
+            "Mix in flour, baking soda, and salt",
+            "Stir in chocolate chips",
+            "Drop rounded tablespoons onto ungreased baking sheets",
+            "Bake for 10-12 minutes until golden brown"
+        ],
+        "cooking_time": "25 minutes",
+        "difficulty": "Easy"
+    },
+    "Spaghetti Carbonara": {
+        "ingredients": ["spaghetti", "eggs", "pecorino cheese", "pancetta", "black pepper", "salt"],
+        "procedure": [
+            "Cook spaghetti in salted water according to package instructions",
+            "Fry pancetta until crispy",
+            "Beat eggs with grated pecorino cheese",
+            "Mix hot pasta with pancetta",
+            "Stir in egg mixture quickly",
+            "Add black pepper and serve immediately"
+        ],
+        "cooking_time": "20 minutes",
+        "difficulty": "Medium"
+    },
+    "Chicken Tikka Masala": {
+        "ingredients": ["chicken breast", "yogurt", "tomato sauce", "cream", "garam masala", "turmeric", "ginger", "garlic", "onion", "butter"],
+        "procedure": [
+            "Marinate chicken in yogurt and spices for 2 hours",
+            "Grill chicken until charred",
+            "Sauté onions, ginger, and garlic",
+            "Add tomato sauce and spices",
+            "Simmer with cream",
+            "Add grilled chicken and cook until heated through"
+        ],
+        "cooking_time": "1 hour",
+        "difficulty": "Medium"
+    },
+    "Vegetable Stir Fry": {
+        "ingredients": ["broccoli", "carrots", "bell peppers", "snap peas", "soy sauce", "garlic", "ginger", "oil"],
+        "procedure": [
+            "Cut vegetables into bite-sized pieces",
+            "Heat oil in a wok",
+            "Stir-fry garlic and ginger",
+            "Add vegetables in order of cooking time",
+            "Add soy sauce",
+            "Cook until vegetables are crisp-tender"
+        ],
+        "cooking_time": "15 minutes",
+        "difficulty": "Easy"
+    },
+    "Classic Pancakes": {
+        "ingredients": ["flour", "milk", "eggs", "butter", "sugar", "baking powder", "salt"],
+        "procedure": [
+            "Mix dry ingredients",
+            "Whisk wet ingredients separately",
+            "Combine wet and dry ingredients",
+            "Heat griddle or pan",
+            "Pour batter and cook until bubbles form",
+            "Flip and cook other side"
+        ],
+        "cooking_time": "20 minutes",
+        "difficulty": "Easy"
+    },
+    "Guacamole": {
+        "ingredients": ["avocados", "lime", "onion", "tomatoes", "cilantro", "salt", "garlic"],
+        "procedure": [
+            "Mash avocados",
+            "Dice onion and tomatoes",
+            "Chop cilantro",
+            "Mix all ingredients",
+            "Add lime juice and salt to taste"
+        ],
+        "cooking_time": "10 minutes",
+        "difficulty": "Easy"
+    },
+    "Mushroom Risotto": {
+        "ingredients": ["arborio rice", "mushrooms", "onion", "white wine", "vegetable broth", "parmesan cheese", "butter", "garlic"],
+        "procedure": [
+            "Sauté mushrooms and set aside",
+            "Cook onion and garlic in butter",
+            "Add rice and toast slightly",
+            "Add wine and let absorb",
+            "Gradually add hot broth while stirring",
+            "Finish with mushrooms and parmesan"
+        ],
+        "cooking_time": "40 minutes",
+        "difficulty": "Medium"
+    },
+    "Greek Salad": {
+        "ingredients": ["cucumber", "tomatoes", "red onion", "feta cheese", "olives", "olive oil", "oregano", "salt"],
+        "procedure": [
+            "Chop cucumbers and tomatoes",
+            "Slice red onion",
+            "Combine vegetables",
+            "Add crumbled feta and olives",
+            "Dress with olive oil",
+            "Season with oregano and salt"
+        ],
+        "cooking_time": "15 minutes",
+        "difficulty": "Easy"
+    },
+    "Banana Bread": {
+        "ingredients": ["ripe bananas", "flour", "sugar", "eggs", "butter", "baking soda", "vanilla extract", "salt"],
+        "procedure": [
+            "Preheat oven to 350°F (175°C)",
+            "Mash bananas",
+            "Cream butter and sugar",
+            "Add eggs and vanilla",
+            "Mix in dry ingredients",
+            "Pour into loaf pan",
+            "Bake for 60 minutes"
+        ],
+        "cooking_time": "1 hour 15 minutes",
+        "difficulty": "Easy"
+    },
+    "Beef Tacos": {
+        "ingredients": ["ground beef", "taco seasoning", "tortillas", "lettuce", "tomatoes", "cheese", "sour cream", "onion"],
+        "procedure": [
+            "Brown ground beef",
+            "Add taco seasoning",
+            "Warm tortillas",
+            "Chop vegetables",
+            "Assemble tacos with toppings"
+        ],
+        "cooking_time": "25 minutes",
+        "difficulty": "Easy"
+    },
+    "Tomato Soup": {
+        "ingredients": ["tomatoes", "onion", "garlic", "vegetable broth", "cream", "basil", "butter", "salt", "pepper"],
+        "procedure": [
+            "Sauté onion and garlic",
+            "Add chopped tomatoes",
+            "Pour in broth and simmer",
+            "Blend until smooth",
+            "Add cream and seasonings",
+            "Garnish with basil"
+        ],
+        "cooking_time": "30 minutes",
+        "difficulty": "Easy"
+    },
+    "Caesar Salad": {
+        "ingredients": ["romaine lettuce", "parmesan cheese", "croutons", "caesar dressing", "garlic", "lemon juice", "anchovies"],
+        "procedure": [
+            "Wash and chop lettuce",
+            "Make dressing with garlic, anchovies, and lemon",
+            "Toss lettuce with dressing",
+            "Add cheese and croutons",
+            "Season to taste"
+        ],
+        "cooking_time": "15 minutes",
+        "difficulty": "Easy"
+    },
+    "Apple Pie": {
+        "ingredients": ["apples", "pie crust", "sugar", "cinnamon", "butter", "flour", "lemon juice", "egg wash"],
+        "procedure": [
+            "Preheat oven to 425°F (220°C)",
+            "Slice apples and mix with sugar and spices",
+            "Line pie dish with bottom crust",
+            "Fill with apple mixture",
+            "Cover with top crust",
+            "Brush with egg wash",
+            "Bake until golden brown"
+        ],
+        "cooking_time": "1 hour",
+        "difficulty": "Medium"
+    },
+    "Fried Rice": {
+        "ingredients": ["cooked rice", "eggs", "peas", "carrots", "soy sauce", "green onions", "oil", "garlic"],
+        "procedure": [
+            "Scramble eggs and set aside",
+            "Stir-fry vegetables",
+            "Add rice and break up clumps",
+            "Add soy sauce",
+            "Mix in eggs and green onions"
+        ],
+        "cooking_time": "20 minutes",
+        "difficulty": "Easy"
+    },
+    "Pesto Pasta": {
+        "ingredients": ["pasta", "basil", "pine nuts", "garlic", "parmesan cheese", "olive oil", "salt"],
+        "procedure": [
+            "Cook pasta according to package",
+            "Blend basil, nuts, garlic, and cheese",
+            "Stream in olive oil while blending",
+            "Toss pasta with pesto",
+            "Adjust seasoning"
+        ],
+        "cooking_time": "20 minutes",
+        "difficulty": "Easy"
+    }
+}
